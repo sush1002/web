@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Bloom Room:Online Flower Delivery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lobster&family=Playball&family=Satisfy&display=swap">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bacasime+Antique&family=Patua+One&display=swap">
+    
+
+</head>
+
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="images/logo2.webp" alt="error loading the image"></div>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#AboutUs">About Us</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#ContactUs">Contact Us</a></li>
+            <button class="id" >Click here</button>
+            <nav>
+                <select id="dropdown">
+                    <div class="mytoggle">
+                  <option value="togglehide">Menu</option>
+                  <option value="Home">Home</option>
+                  <option value="AboutUs ">About</option>
+                  <option value="Services">Services</option>
+                  <option value="ContactUs">Contact</option>
+                </select>
+              </nav>
+            </div>
+        </ul>
+       
+        <div class="rightnav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+    <section class="background first-section">
+        <div class="box-main">
+            <div id="Home">
+            <div class="fhalf">
+                <p class="text-small">
+                   
+                <marquee ><h1>Welcome To The Bloom Room!!!</h1></marquee>  
+                Send Flowers like you mean it! Where flowers are our inspiration to create lasting memories.Whatever the occasion maybe our flowers will make it special;)
+            </p>
+   
+                <div class="buttons" ide="bats">
+                    <button class="btns" id="bat" onclick="openForm()"> Order </button>
+                    <div class="form-popup" id="myForm">
+                        <form action="no.php" class="form-container" >
+                           
+                              
+                                <input type="text" placeholder="Enter name"  id="idname"  required >
+   
+                              
+                               <input type="text" placeholder="Enter address"  id="idaddress" required>
+   
+                          
+                               <input type="email" placeholder="Enter email"  id="idemail" required>
+   
+                              
+                               <input type="text" placeholder="Enter phone no" id="idphoneno" required>
+   
+                             
+                               <input type="text" placeholder="Enter the type of order" name="order" required>
+                               <button type="submit" class="btns">Submit</button>
+                               <button type="reset" class="btns">Reset</button>
+   
+                               <button type="button"class="btns cancel" onclick="closeForm()"> Close</button>
+                           
+                        </form>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="secondhalf">
+
+                <img src="images/logo1.avif" alt="errorr">
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div id="Services">  </div>
+        <div class="paras">
+            <p class="sectiontag">
+               Bouquet section
+            </p>
+            <h1><b>“A flower does not use words to announce its arrival to the world; it just blooms.”</b></h1>
+            <p class="section-subtag">Few of sample bouquets.</p>
+       
+            <div class="help">
+                <li><img src="images/bouq6.avif" alt="error"></li>
+                <li><img src="images/bouq1.avif" alt="error"></li>
+                <li><img src="images/bouq5.avif" alt="error"></li>
+                <li><img src="images/bouq3.avif" alt="error"></li>
+                <li><img src="images/bouq2.avif" alt="error"></li>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <img src="images/bouquets.webp" alt="error loading the image" class="imgfluid">
+        </div>
+  
+    </section>
+    <section class="section left">
+        <div class="paras">
+            <p class="sectiontag">
+              Flower section
+            </p>
+            <h1><b>“In joy and in sadness, flowers are our constant friends!.”</b></h1>
+            <p class="section-subtag">Flowers are the best way to show you care.Show your love to your loved one and make them happy;)
+
+            </p>
+            <div class="sit">
+                <li><img src="images/red rose.avif" alt="image isnt loading">Rose</li>
+                <li><img src="images/jasmine.webp" alt="error loading image">Jasmine</li>
+                <li><img src="images/red tulip.avif" alt="error">Tulip</li>
+                <li><img src="images/lily.avif" alt="error">Lily</li>
+                <li><img src="images/yellow rose.avif" alt="error">Yellow rose</li>
+               
+            </div>
+        </div>
+        <div class="thumbnail">
+            <img src="images/flower.avif " alt="error loading the image" class="imgfluid" >
+        </div>
+
+    </section>
+</section>
+<section class="section end">
+    <div class="paras">
+        <p class="sectiontag">
+         Decor section
+        </p>
+        <h2><b>“Happiness held is the seed; Happiness shared is the flower.”</b></h2>
+        <p class="section-subtag">We make decorations according to your design ideas.. Here are few of our sample wedding decors</p>
+        <div class="img">
+            <li><img src="images/decor1.webp" alt="error">decor1</li>
+            <li><img src="images/decor6.webp" alt="error">decor2</li>
+            <li><img src="images/decor7.webp" alt="error">decor3</li>
+            <li><img src="images/decor2.webp" alt="error">decor4</li>
+            <li><img src="images/deco4.webp" alt="error">decor5</li>
+        </div>
+    </div>
+
+    <div class="thumbnail">
+        <img src="images/wedding.avif" alt="error loading the image" class="imgfluid">
+    </div>
+
+</div>
+
+</section>
+
+<section class="section  left branches">
+    <div class="paras">
+        <div id="AboutUs"></div>
+        <p class="sectiontag">
+           Our branches across Karnataka
+        </p>
+        
+        <p class="section-subtag">
+          These are our branches across Karnataka. We would like to grow our branches further. We will provide our best services!!
+        </p>
+        <div class="sits">
+            <li><img src="images/shop1.webp" alt="image isnt loading"> Bangalore</li>
+            <li><img src="images/shop2.webp" alt="error loading image">  Mysore   </li>
+            <li><img src="images/shop3.avif" alt="error">Mangalore</li>
+            <li><img src="images/shop4.avif" alt="error">Madikeri</li>
+          
+           
+        </div>
+    
+</div>
+</section>
+
+
+<footer class="foot">
+    <div id="ContactUs" ></div>
+    <div class="Contact footersection">
+        
+        <h2 class="text">Contact Us</h2>
+    <p><br>For further queries  contact:  
+       <br><h3 class="email">email:bloom_room@gmail.com </h3> 
+        <br>contact no:08257-270266 
+        <br>instagram:__bloomroom__ 
+        <br>Main location:Pumpwell,Mangaluru
+    </div>
+</div>
+    <div class="get">
+        <ul>
+            <span>&copy;The Bloom Room by :Sushmitha M</span>
+        </ul>
+       
+    </div>
+</footer>
+</body>
+
+</html>
+
